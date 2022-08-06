@@ -1,0 +1,168 @@
+@font-face {
+    font-family: SpecialElite;
+    src: url(../fonts/SpecialElite.ttf);
+}
+
+
+
+h1{  
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.5rem; 
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2{ 
+    font-family: "Montserrat-Bold";
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+    line-height: 1.5; 
+}
+
+
+body{
+    font-family: 'Chivo', sans-serif;
+}
+
+
+.container-fluid{
+    padding: 2% 22%; /*top bottom 7%, left right 15%*/
+
+}
+
+
+/*---Navigation Bar---*/
+.navbar{
+    padding-bottom:3rem;
+}
+
+
+.navbar-light .navbar-nav .nav-link .navbar-brand{
+    padding: 0 18px;
+    font-size:1.2rem;
+    font-weight: 400;
+    color: black;
+}
+
+
+/*---Letter---*/
+.letter-typography{
+    font-family: "SpecialElite";
+    line-height: 3rem;
+    font-size: 1.5rem;
+    color: #535353;
+ 
+}
+
+/*---work tiles----*/
+.card{
+    height:auto;
+    border-color:black;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body{
+    padding: 6% 9% 0% 9%; /*top bottom 7%, left right 15%*/ 
+}
+
+.card-title{
+    font-size:2rem;
+    font-weight: bold;
+}
+
+
+.badge{
+    border-style: solid;
+    border-color: black;
+    color: black;
+    background: rgba(255,255,255,0.2);
+    font-weight: 500;
+    font-size: 0.6rem;
+    padding: 0%, 2%, 0%, 2%;;
+}
+
+#img-stretchedTopPadding{
+    padding-top: 3.5rem;
+}
+
+.card-img{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom:0rem; 
+    padding-top: 2rem;
+}
+
+.card-img-bottom{
+    max-width: 100%;
+    height: auto;
+}
+
+.cohesity{
+    background-color: #9FCB9D;
+}
+
+.researchAndTesting{
+    background-color: #FFE665;
+ }
+
+ .individualProjects{
+    background-color: #FCCFEA;
+ 
+ }
+
+ .dataVisualization{
+    background-color: #E88C64;
+ }
+
+
+/* --footer-- */
+#footer{
+    text-align: center;
+    background-color: #fff;
+}
+
+.social-logo{
+    width:4%;
+    margin-bottom:24px;
+    border-radius:10px;
+    border-color: black;
+
+}
+
+.copyright-text{
+    color:#8f8f8f;
+}
+
+.footer-sizing-adjuster{
+    padding: 2% 0%;
+}
+
+.footer-btn{
+        background-color: white;
+        border: solid;
+        color: black;
+        padding: 6px 12px;
+        font-size: 24px;
+        cursor: pointer;
+        border-radius:50%;
+        border-color:black;
+
+    
+      
+      /* Darker background on mouse-over */
+
+}
+.footer-btn:hover {
+    background-color: black;
+    border-color: black;
+    border:solid;
+    color:white;
+  }
