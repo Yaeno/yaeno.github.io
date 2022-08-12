@@ -114,12 +114,12 @@ body{
  }
 
  .individualProjects{
-    background-color: #FCCFEA;
+    background-color: #F99A6E;
  
  }
 
  .dataVisualization{
-    background-color: #E88C64;
+    background-color: #B7BEB0;
  }
 
 
@@ -166,3 +166,33 @@ body{
     border:solid;
     color:white;
   }
+
+
+
+
+/*----Work Pages----*/
+
+/*----Work Page Common Css----*/
+.pageHeader-title{
+    color: white;
+    height: 300px; 
+}
+
+.pageHeader-container{
+    padding-top: 5rem;
+}
+
+.sectionImage{
+    height:5rem;
+    width:5rem;
+  }
+
+.dv-title{
+    background-color: #B7BEB0;
+  }
+
+
+
+/*---#6 Delayed Flight---*/
+
+
