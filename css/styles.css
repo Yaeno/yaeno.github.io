@@ -13,20 +13,23 @@ h1{
 }
 
 h2{ 
-    font-family: "Montserrat-Bold";
-    font-size: 2.5rem;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
     line-height: 1.5;
+    color:#333333;
 }
 
 h3{
-    font-family: "Montserrat-Bold";
+    font-family:  'Chivo', sans-serif;
     font-size: 1.5rem;
     line-height: 1.5; 
-}
+    color:#333333;}
 
 
 body{
     font-family: 'Chivo', sans-serif;
+    color:#333333;
 }
 
 
@@ -170,29 +173,78 @@ body{
 
 
 
-/*----Work Pages----*/
+/*=============Work Pages============*/
 
-/*----Work Page Common Css----*/
+/*----Work Page Common CSS----*/
 .pageHeader-title{
     color: white;
-    height: 300px; 
+    height: 27.5rem; 
 }
 
 .pageHeader-container{
-    padding-top: 5rem;
+    padding: 8rem 0rem;
 }
 
 .sectionImage{
-    height:5rem;
-    width:5rem;
+    height:7rem;
+    width:7rem;
   }
 
 .dv-title{
     background-color: #B7BEB0;
   }
 
+.page-break-text{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    margin-top:2.2rem;
+    margin-bottom:2rem;
+}
+
+.page-p{
+    color: #333333;
+    font-size: 18px;
+    line-height:2rem;
+}
+
+.page-h2{
+    color:#333333;
+    margin-bottom: 2rem;
+}
+
+.solid{
+    margin-top:3rem;    
+}
+
+.padding-bottom-0{
+    padding-bottom:0rem;
+}
+
+.padding-top-small{
+    padding-top:0.5rem;
+}
+
+.padding-top-medium{
+    padding-top:3rem;
+}
 
 
-/*---#6 Delayed Flight---*/
+
+/* -- #6 Project Delayed Flight-- */
+
+a.link-delayedFlight:link{
+    color:rgba(255,126,103,1);
+    text-decoration: none;
+
+}
+
+a.link-delayedFlight:hover{
+    text-decoration: underline;
+    color:rgba(255,126,103,1);
+}
+
+
 
 
