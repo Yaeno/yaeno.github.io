@@ -25,7 +25,8 @@
 </head>
 
 <body>
-    <section class="pageHeader-title dv-title">
+<!----Page Banner---->
+ <section class="pageHeader-title dv-title">
         <div class="pageHeader-container">
             <div class="row justify-content-center">
               <div class="col-4 d-flex justify-content-center">
@@ -38,11 +39,11 @@
               </div>
             </div>
         </div>
-    </section>
+ </section>
 
 
 <!----Content---->
-<section id="workTiles">
+ <section id="workContent">
     <!----Brief---->
     <div class="container-fluid padding-bottom-0" >
       <p class="row page-break-text justify-content-center">BRIEF</p>
@@ -71,14 +72,68 @@
     <p class="row page-break-text justify-content-center">HOW TO DEVELOP THE STORY</p>
     <h2 class="row page-h2 justify-content-center">Process</h2>
     <p class="page-p">The project covers the data mining, graphic design and interaction development. </p>
-    <img style="max-width:100%" src="images/delayedFlight/process.jpeg"> 
-    <hr class="solid">
+    <div class="row justify-content-center"> 
+         <img style="max-width:80%" src="images/delayedFlight/process.jpeg"> 
+    </div>
+
+    <!----1.Data Mining----> 
+    <p class="row page-p-title justify-content-center">1. Data Mining</p>
+    <p class="page-p margin-bottom-paragraph">
+        I obtained the airport data from
+        <a style="color:rgba(255,126,103,1)"class="link-delayedFlight" href="https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp" target="_blank" rel="noopener noreferrer">Bureau of Transportation Statistics</a> 
+        , which accommodates 3000 entries.  
+    </p>
+    <p class="page-p"> At the outset of the project, without any topics on top of my mind, I used R to plot the data so as to explore the hidden stories from behind.</p>
+    <div class="row justify-content-center">
+         <img style="max-width:80%; margin-bottom: 2rem;" src="images/delayedFlight/dataMining.png">  
+    </div>
+
+    <!----2.Shape the Story----> 
+    <p class="row page-p-title justify-content-center">2. Shape The Story</p>
+    <p class="page-p margin-bottom-paragraph">Plotting the data unveiled many interesting stories, but they can be stated from different perspectives.</p>
+    <p class="page-p margin-bottom-paragraph">To narrow down the scale, I decided to tell the story from a passenger's perspective and selected a topic I care most - delayed flights- to drill down to detail and plan the storylines.</p>
+    <p class="page-p margin-bottom-paragraph">After the investigation, I fixed the topic on uncovering the percentage/number of delayed flights in 30 major airports across USA and analyzing their causes. </p>
+
+    <!----3.Shape the Story----> 
+    <p class="row page-p-title justify-content-center padding-top-medium">3. Plan The Data And Its Visualization</p>
+    <p class="page-p margin-bottom-paragraph">
+        To crack down the topic, I listed the data elements needed for the story and their possible visual representations.  To build the connection between the two, I  also planned the interaction ideas to form a whole complete story.
+    </p>
+    <div class="row justify-content-center">
+        <img style="max-width:80%; margin-bottom: 2rem;" src="images/delayedFlight/planData.png">  
+    </div>
+
+    <!----4. Design Graphic---->
+    <p class="row page-p-title justify-content-center padding-top-medium">4. Design Graphic</p>
+    <p class="row page-p margin-bottom-paragraph justify-content-center">Built graphic by Sketch </p>
+    <div class="row justify-content-center">
+        <img style="max-width:80%; margin-bottom: 2rem;" src="images/delayedFlight/graphicDesign.jpeg">  
+    </div>
+
+
+    <!----5. Develop Interaction---->
+    <p class="row page-p-title justify-content-center padding-top-medium">5. Develop Interaction</p>
+    <p class="row page-p margin-bottom-paragraph justify-content-center">Coded projects by using D3 JS </p>
+    <div class="row justify-content-center">
+         <img style="max-width:80%; margin-bottom: 2rem;" src="images/delayedFlight/codes.png">  
+    </div>
    </div>   
+ </section>
 
 
+ <!---Footer---->
 
-    
-</section>
+ <footer id="footer">
+    <div class="container-fluid">
+      <a class="page-footer-interval-sizing page-footer-styling"
+        href="index.html">Works
+      </a>
+      <a class="page-footer-interval-sizing page-footer-styling" 
+        href="#">About
+      </a>
+    </div>
+  </footer>
 
 
+</body>
 </html>

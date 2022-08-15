@@ -3,6 +3,9 @@
     src: url(../fonts/SpecialElite.ttf);
 }
 
+:root {
+    --bs-link-color: #b8b8b8;
+}
 
 
 h1{  
@@ -194,6 +197,7 @@ body{
     background-color: #B7BEB0;
   }
 
+
 .page-break-text{
     color: #333333;
     font-size: 16px;
@@ -214,6 +218,15 @@ body{
     margin-bottom: 2rem;
 }
 
+.page-p-title{
+    color: #333333;
+    font-weight: 900;
+    font-size: 18px;
+    line-height:2rem; 
+    margin-bottom: 2rem;
+    margin-top:2rem;
+}
+
 .solid{
     margin-top:3rem;    
 }
@@ -230,6 +243,30 @@ body{
     padding-top:3rem;
 }
 
+.margin-bottom-paragraph{
+    margin-bottom:2rem;
+}
+
+.page-footer-styling{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+a.page-footer-styling:link{
+    text-decoration: none;
+}
+
+
+a.page-footer-styling:hover{
+    text-decoration: none;
+    color:#333333;
+}
+
+.page-footer-interval-sizing{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 
 
 /* -- #6 Project Delayed Flight-- */
@@ -244,6 +281,12 @@ a.link-delayedFlight:hover{
     text-decoration: underline;
     color:rgba(255,126,103,1);
 }
+
+
+/* -- #5 Keto Meal-- */
+.ketoMeal-title{
+    background-color: #F6875A;
+  }
 
 
 
