@@ -294,5 +294,18 @@ a.link-delayedFlight:hover{
   }
 
 
+.container-fluid-ketoMeal{
+    padding: 2% 6% 0% 0%; /*top bottom 7%, left right 15%*/
 
+}
 
+.card-img-bottom-ketoMeal{
+    max-width: 100%;
+    height: auto;
+    padding-bottom:4%;
+}
+
+.img-middle-ketoMeal{
+    height:40%;
+    width:40%;
+}
