@@ -30,6 +30,14 @@ h3{
     color:#333333;}
 
 
+h4{ 
+        font-family: 'Chivo', sans-serif;
+        font-weight: 900;
+        font-size: 1.3rem;
+        line-height: 1.5;
+        color:#333333;
+}
+
 body{
     font-family: 'Chivo', sans-serif;
     color:#333333;
@@ -207,6 +215,7 @@ body{
     margin-bottom:2rem;
 }
 
+
 .page-p{
     color: #333333;
     font-size: 18px;
@@ -225,6 +234,12 @@ body{
     line-height:2rem; 
     margin-bottom: 2rem;
     margin-top:2rem;
+}
+
+.page-section-title{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
 }
 
 .solid{
@@ -247,7 +262,7 @@ body{
     margin-bottom:2rem;
 }
 
-.margin-bottom-paragraph-15{
+.margin-bottom-paragraph-5{
     margin-bottom:5rem;
 }
 
