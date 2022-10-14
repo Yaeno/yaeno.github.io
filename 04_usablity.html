@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ying Zhang Portfolio</title>
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/89e4fa607a.js" crossorigin="anonymous"></script>
+  
+
+  <!--CSS Stylesheet-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--Bootstrap Scripts-->
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!----Page Banner---->
+ <section class="pageHeader-title usability-title">
+        <div class="pageHeader-container">
+            <div class="row justify-content-center">
+              <div class="col-4 d-flex justify-content-center">
+                <img class="sectionImage" src="images/ketoMeal/ketoTitleIcon.svg">
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-4 text-center">
+                <p class="page-p" style="color:white;font-weight:500">iOS</p>
+              </div>
+            </div>
+        </div>
+ </section>
+
+
+<!----Content---->
+ <section id="workContent">
+    <!----Brief---->
+    <div class="container-fluid padding-bottom-0" >
+      <p class="row page-break-text justify-content-center">BRIEF</p>
+      <h2 class="row page-h2 justify-content-center">Ketogenic Meal Plan</h2>
+      <p class="page-p margin-bottom-paragraph">This iOS application is designed to facilitate parents whose kids are lacking glucose transporters to plan ketogenic meals which generate glucose via burning fats. </p>
+      <p class="page-p margin-bottom-paragraph">This project is under development.  I interviewed users, built high-resolution mockups using Sketch, and coded high-fidelity prototype using Framer JS. </p>
+    </div>
+    <!----the Origin of the Project-->
+    <div class="container-fluid padding-bottom-0" >
+      <p class="row page-break-text justify-content-center">THE ORIGIN OF THE IDEA</p>
+      <h2 class="row page-h2 justify-content-center">Anxiety Free Meal Planning </h2>
+      <p class="page-p margin-bottom-paragraph">Back in April,  I visited my school friend Chloe,  whose daughter Angela is turning 5 this year.  Angela cannot speak because her body lacks glucose transporters which prevent the glucose from being transported to her brain. Therefore, Angela's brain development is slower. </p>
+      <p class="page-p margin-bottom-paragraph">Doctors suggested Angela try a Ketogenic diet that can transfer glucose via burning fat.  As a mother, Chloe has been planning every meal via an Excel spreadsheet since last year.  </p>
+      <div class="row justify-content-center">
+        <img style="max-width:80%; margin-bottom: 2rem;" src="images/ketoMeal/Excel+Calculation+Sheet.png">  
+      </div>
+      <div class="row justify-content-center">
+        <img style="max-width:80%; margin-bottom: 0.5rem;" src="images/ketoMeal/Excel+Calculation+Sheet-2.png">  
+      </div>
+      <p class="row justify-content-center margin-bottom-paragraph" style="font-style: italic;">Chloe's Meal Plan</p>
+      <p class="page-p margin-bottom-paragraph"> However, Excel is not portable and cannot automatically calculate the amounts of nutrition that need to be taken for each meal. </p>
+      <p class="page-p margin-bottom-paragraph"> We decided to build an iOS application that can effortlessly plan Ketogenic Meals to save time and the effort needed to maintain an Excel spreadsheet.  </p>
+      <hr class="solid">
+    </div>
+    <!---Understand Users--->
+    <div class="container-fluid padding-bottom-0" >
+      <p class="row page-break-text justify-content-center">UNDERSTAND USERS</p>
+      <h2 class="row page-h2 justify-content-center">Demographic</h2>
+      <p class="page-p margin-bottom-paragraph-5">For the first release, our target users are the parents who plan the ketogenic meals for their child to treat the problem of poor glucose transportation.</p>
+
+      <!---Interviews-->
+      <h2 class="row page-h2 justify-content-center">Interviews</h2>
+      <p class="page-p margin-bottom-paragraph">I interviewed three moms to understand their habits of daily meal planning. I summarized the interviews into five main points.</p>
+      <div class="container-fluid-ketoMeal margin-bottom-paragraph-5">
+        <div class="row row-cols-1 row-cols-lg-2 g-4">
+          <div class="col">
+            <div>
+              <img src="images/ketoMeal/interview_1.jpeg" class="card-img-bottom-ketoMeal" alt="...">
+            </div>
+            <p>When planning meals, everyone strictly follows the nutrition proportion (Fat : Sugar + Protein) their doctors suggest, especially at the beginning of the meal planning. </p>
+          </div>
+          <div class="col">
+            <div>
+              <img src="images/ketoMeal/interview_2.jpeg" class="card-img-bottom-ketoMeal" alt="...">
+            </div>
+            <p>Most of the interviewees use Excel to track nutrition. However, when planning each meal, it is difficult to calculate the amounts of food that can be taken based on the set goals.  </p>
+          </div>
+          <div class="col">
+            <div>
+              <img src="images/ketoMeal/interview_3.jpeg" class="card-img-bottom-ketoMeal" alt="...">
+            </div>
+            <p>Interviewees will save the most nutritious and best tasting recipes. </p>
+          </div>
+          <div class="col">
+            <div>
+              <img src="images/ketoMeal/interview_4.jpeg" class="card-img-bottom-ketoMeal" alt="...">
+            </div>
+            <p>Daily data can be useful to track the healing process, and monthly data can help troubleshoot problems when new symptoms occur.</p>
+          </div>
+          <div class="col">
+            <div>
+              <img src="images/ketoMeal/interview_5.jpeg" class="card-img-bottom-ketoMeal" alt="...">
+            </div>
+            <p>Interviewees need the ability to constantly tweak the ingredients and leverage their proportion and the taste of the meal.  </p>
+          </div>
+        </div>
+      </div>
+
+      <!---User Journey--->
+      <h2 class="row page-h2 justify-content-center">User Journey</h2>
+      <p class="page-p margin-bottom-paragraph">In order to genuinely understand users' needs, I built a journey map to tell the stories from the users' perspective. The map highlights both the physical and emotional process when planning ketogenic meals.  </p>
+      <div>
+        <img src="images/ketoMeal/user_journey.jpeg" class="card-img-bottom-ketoMeal" alt="...">
+      </div>
+
+
+       <!---Story Map--->
+      <h2 class="row page-h2 justify-content-center">Story Map</h2>
+      <p class="page-p margin-bottom-paragraph">Based on the results of the interviews, and in order to break down the feedback to smaller actions, I built a user story map which slices the main topics into smaller, actionable tasks. </p>
+      <div>
+        <img src="images/ketoMeal/story_map.jpeg" class="mx-auto d-block card-img-bottom-ketoMeal" alt="...">
+      </div>
+
+      <hr class="solid">
+    </div>
+   
+
+    <!---Design-->
+    <div class="container-fluid padding-bottom-0" >
+      <p class="row page-break-text justify-content-center">DESIGN</p>
+      <h2 class="row page-h2 justify-content-center">Introducing Assistance </h2>
+      <p class="page-p">In the mobile age, the Ketogenic Meal Planner assists by making meal planning fast, simple and efficient. The planner can automatically generate recipes based on specified ingredients and effortlessly tracks your nutritional intake.  </p>
+      <div class="margin-bottom-paragraph">
+        <img src="images/ketoMeal/design_1.jpeg" class="card-img-bottom-ketoMeal" alt="...">
+      </div>
+
+      <h2 class="row page-h2 justify-content-center">Simple Navigation</h2>
+      <p class="page-p">The navigation of the Ketogenic Meal Planner is straightforward, which surfaces the four main functions to the users. </p>
+      <div class="margin-bottom-paragraph-5">
+        <img src="images/ketoMeal/design_2.png" class="mx-auto d-block img-middle-ketoMeal" alt="...">
+      </div>
+
+      <!---Design New Recipe-->
+
+      <!---1. Set Meal Goals-->
+
+      <h2 class="row page-h2 justify-content-center">New Recipe Creation</h2>
+      <p class="page-p text-center margin-bottom-paragraph">The application can automatically create recipes based on the entered ingredients. </p>
+      <div class="margin-bottom-paragraph-5">
+        <p class="page-section-title text-center margin-bottom-paragraph">1. Set Meal Goals</p>
+        <img src="images/ketoMeal/design_3setGoals.gif" class="mx-auto d-block img-middle-ketoMeal" alt="...">
+      </div>
+
+      <!---2.Add Ingredients to Generate Recipe-->
+      <div class="margin-bottom-paragraph-5">
+        <p class="page-section-title text-center margin-bottom-paragraph">2. Add Ingredients</p>
+        <img src="images/ketoMeal/design_4addIngredients.gif" class="mx-auto d-block img-middle-ketoMeal" alt="...">
+      </div>
+
+      <!---3.Tweak Recipe Based on the Goals-->
+      <div class="margin-bottom-paragraph-5">
+        <p class="page-section-title text-center margin-bottom-paragraph">3. Tweak Recipe Based on the Goals</p>
+        <img src="images/ketoMeal/design_5tweak.gif" class="mx-auto d-block img-middle-ketoMeal" alt="...">
+      </div> 
+
+
+      <!---Saved Recipe-->
+      <h2 class="row page-h2 justify-content-center">Saved Recipe</h2>
+      <p class="page-p text-center margin-bottom-paragraph">Users can find saved recipes and read their ingredients. </p>
+      <div class="margin-bottom-paragraph-5">
+        <img src="images/ketoMeal/design_6savedRecipe.gif" class="mx-auto d-block img-middle-ketoMeal" alt="...">
+      </div>
+
+      <!---Data--->
+      <!---1. Tracking Daily Data-->
+
+      <h2 class="row page-h2 justify-content-center">Data</h2>
+      <p class="page-p text-center margin-bottom-paragraph">Tracking data is important to observe and measure the healing effects.</p>
+      <div class="margin-bottom-paragraph-5">
+        <p class="page-section-title text-center margin-bottom-paragraph">1. Tracking Daily Data</p>
+        <img src="images/ketoMeal/design_7trackingDailyData.gif" class="mx-auto d-block img-middle-ketoMeal" alt="...">
+      </div>
+
+
+      <!---2. Tracking Monthly Data-->
+      <div class="margin-bottom-paragraph-5">
+        <p class="page-section-title text-center margin-bottom-paragraph">2. Track Monthly Data for Each Nutrition</p>
+        <img src="images/ketoMeal/design_8trackingMonthlyData.gif" class="mx-auto d-block img-middle-ketoMeal" alt="...">
+      </div>
+
+      <!---Food--->
+
+      <h2 class="row page-h2 justify-content-center">Food</h2>
+      <p class="page-p text-center margin-bottom-paragraph">The application provides flexibility for users to search the FDA food list or enter a custom food item. </p>
+      <div class="margin-bottom-paragraph-5">
+        <img src="images/ketoMeal/design_9Food.gif" class="mx-auto d-block img-middle-ketoMeal" alt="...">
+      </div>
+
+      <hr class="solid">
+    </div>
+
+
+    <!---Challenges-->
+    <div class="container-fluid padding-bottom-0" >
+      <p class="row page-break-text justify-content-center">CHALLENGES</p>
+      <h4 class="row page-h2 justify-content-center">1. Find Appropriate Data Visualizations</h4>
+      <p class="page-p margin-bottom-paragraph">
+        The application provides the flexibility for users to tweak the meal ingredients based on their set goals.  
+        I was looking for appropriate formats to visualize the relationships between the goals and the current energy and nutrition distribution.  
+      </p>
+      <p class="page-p margin-bottom-paragraph">
+        The design goal is to present the information and relationship in ways that are <span style="font-weight:bold">accurate</span>, <span style="font-weight:bold">clean</span> and <span style="font-weight:bold">understandable</span>.  
+        The image below displays the iteration process.
+      </p>
+      <div class="margin-bottom-paragraph">
+        <img src="images/ketoMeal/challenge_1.png" class="card-img-bottom-ketoMeal mx-auto d-block" alt="...">
+      </div>
+  
+      <h4 class="row page-h2 justify-content-center">2. What Is The Appropriate Navigation ? </h4>
+      <p class="page-p">
+        The navigation of the Ketogenic Meal Planner is straightforward, which surfaces the four main functions to the users.
+      </p>
+      <div>
+        <img src="images/ketoMeal/challenge_2.png" class="card-img-bottom-ketoMeal mx-auto d-block" alt="...">
+      </div>
+      <p class="page-p margin-bottom-paragraph">
+        I compared the pros and cons of each style of navigation, and tested these with users. 
+        The final decision was to go to a full-screen navigation pattern, which is best for achieving simplicity. Since this application is task-oriented, the full-screen navigation can directly reveal information without overwhelming the users. 
+      </p>
+      <div class="margin-bottom-paragraph">
+        <img src="images/ketoMeal/challenge_3.png" class="card-img-bottom-ketoMeal mx-auto d-block" alt="...">
+      </div> 
+
+      <hr class="solid">
+    </div>
+
+
+    <!---Craftsman-->
+    <div class="container-fluid padding-bottom-0" >
+      <p class="row page-break-text justify-content-center">CRAFTSMANSHIP</p>
+      <h4 class="row page-h2 justify-content-center">Built High-Resolution Mockups by Sketch</h4>
+      <div class="margin-bottom-paragraph">
+        <img src="images/ketoMeal/craftsman_1.png" class="card-img-bottom-ketoMeal mx-auto d-block" alt="...">
+      </div>
+      <div class="margin-bottom-paragraph-5">
+        <img src="images/ketoMeal/craftsman_2.png" class="card-img-bottom-ketoMeal mx-auto d-block" alt="...">
+      </div>
+      <h4 class="row page-h2 justify-content-center">Built Interactive Prototypes by Framer JS</h4>
+      <div class="margin-bottom-paragraph">
+        <img src="images/ketoMeal/craftsman_3.png" class="card-img-bottom-ketoMeal mx-auto d-block" alt="...">
+      </div>
+      <hr class="solid">
+    </div>
+
+
+    <!---Future-->
+    <div class="container-fluid padding-bottom-0" >
+      <p class="row page-break-text justify-content-center">FUTURE PLANS</p>
+      <p class="page-p margin-bottom-paragraph-5">
+        Partnering with Chloe, I am working on the algorithm of the recipe generation.  
+        In the future, we are planning to collect the recipes from the patients' community to optimize the algorithm that can recommend a more tasty while still nutritious meal for the users.    
+      </p> 
+    </div>
+
+
+      
+
+ </section>
+
+
+ <!---Footer---->
+
+ <footer id="footer">
+    <div class="container-fluid">
+      <a class="page-footer-interval-sizing page-footer-styling"
+        href="index.html">Works
+      </a>
+      <a class="page-footer-interval-sizing page-footer-styling" 
+        href="#">About
+      </a>
+    </div>
+  </footer>
+
+
+</body>
+</html>
