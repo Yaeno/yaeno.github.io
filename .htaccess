@@ -1,0 +1,4 @@
+AuthType Basic  
+AuthName "Password Protected Area" 
+AuthUserFile /Users/Hotaru/Dropbox/My%20Mac%20(Hotaru-Mac-Book.hsd1.ca.comcast.net)/Documents/GitHub/yaeno.github.io/.htpasswd
+Require valid-user
