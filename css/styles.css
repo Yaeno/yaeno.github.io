@@ -283,6 +283,10 @@ a.page-footer-styling:hover{
     color:#333333;
 }
 
+a{
+    color: black;
+}
+
 .page-footer-interval-sizing{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -300,9 +304,7 @@ a.page-footer-styling:hover{
     border-radius: 0.5rem;
 }
 
-a{
-    color: black;
-}
+
 
 
 /* -- #6 Project Delayed Flight-- */
