@@ -288,6 +288,21 @@ a.page-footer-styling:hover{
     padding-right: 0.5rem;
 }
 
+.markGreen{
+    background-color: #9FCB9D;
+    color: black;
+    border-radius: 0.5rem;
+  }
+
+.markYellow{
+    background-color: #FFE665;
+    color: black;
+    border-radius: 0.5rem;
+}
+
+a{
+    color: black;
+}
 
 
 /* -- #6 Project Delayed Flight-- */
@@ -295,7 +310,6 @@ a.page-footer-styling:hover{
 a.link-delayedFlight:link{
     color:rgba(255,126,103,1);
     text-decoration: none;
-
 }
 
 a.link-delayedFlight:hover{
