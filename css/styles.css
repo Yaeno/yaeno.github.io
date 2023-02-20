@@ -202,10 +202,6 @@ body{
     width:7rem;
   }
 
-.dv-title{
-    background-color: #B7BEB0;
-  }
-
 
 .page-break-text{
     color: #333333;
@@ -304,6 +300,9 @@ a.page-footer-styling:hover{
 
 
 /* -- #6 Project Delayed Flight-- */
+.dv-title{
+    background-color: #B7BEB0;
+  }
 
 a.link-delayedFlight:link{
     color:rgba(255,126,103,1);
@@ -341,6 +340,12 @@ a.link-delayedFlight:hover{
 /* -- #4 Usability-- */
 .usability-title{
     background-color: #FFE665;
+  }
+
+
+/* -- #3 Design System-- */
+.cohesity-title{
+    background-color: #9FCB9D;
   }
 
 
