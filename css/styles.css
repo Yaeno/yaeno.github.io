@@ -263,8 +263,8 @@ body{
     margin-bottom:5rem;
 }
 
-.margin-bottom-paragraph-8{
-    margin-bottom:8rem;
+.margin-bottom-paragraph-10{
+    margin-bottom:10rem;
 }
 
 
@@ -289,15 +289,15 @@ a.page-footer-styling:hover{
 }
 
 .markGreen{
-    background-color: #9FCB9D;
+    background-color: #c6dfc8;
     color: black;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
   }
 
 .markYellow{
-    background-color: #FFE665;
+    background-color: #f7e8aa;
     color: black;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
 }
 
 
